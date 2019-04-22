@@ -51,19 +51,10 @@ class Tree(object):
     
     def inorder(self, node):
         """中序遍历"""
-        if node is None:
-			return
-		self.inorder(node.lchild)
-		print(node.item, end=' ')
-		self.ineorder(node.rchild)
         
     def postorder(self, node):
         """后序遍历"""
-        if node is None:
-			return
-		self.postorder(node.lchild)
-		self.postorder(node.rchild)
-		print(node.item, end=' ')
+
 
 if __name__ == "__main__":
     tree = Tree()
