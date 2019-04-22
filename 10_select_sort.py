@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def select_sort(alist):
-	"""选择排序"""	
+	"""????"""	
 	n = len(alist)
 	for j in range(0, n-1):
 		min_index = j
