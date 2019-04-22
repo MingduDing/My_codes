@@ -61,8 +61,8 @@ class Tree(object):
         """后序遍历"""
         if node is None:
             return       
-        self.postorder(node.lchild)
-        self.postorder(node.rchild)
+		self.postorder(node.lchild)
+		self.postorder(node.rchild)
 		print(node.item, end=' ')
 
 if __name__ == "__main__":

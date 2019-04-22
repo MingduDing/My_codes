@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def insert_sort(alist):
-	"""????"""
+	"""插入排序"""
 	for j in range(1, len(alist)):
 		for i in range(j, 0, -1):
 			if alist[i] < alist[i-1]:
